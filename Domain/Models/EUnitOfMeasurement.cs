@@ -1,9 +1,8 @@
 using System.ComponentModel;
 
 namespace Supermarket.API.Domain.Models
-
 {
-    public enum EUnitOf Measurement : byte
+    public enum EUnitOfMeasurement : byte
     {
         [Description("UN")]
         Unity = 1,
