@@ -31,7 +31,7 @@ namespace Supermarket.API.Controllers
 
         [HttpPost]
 
-        public async Task<IActionResult> PostAsync([FromBody] SaveCategoryResource resource)
+       /* public async Task<IActionResult> PostAsync([FromBody] SaveCategoryResource resource)
 
         {
             if (!ModelState.IsValid)
@@ -39,6 +39,6 @@ namespace Supermarket.API.Controllers
 
             var category = _mapper.Map<SaveCategoryResource, Category>(resource);
 
-        }
+        }*/
     }
 }
