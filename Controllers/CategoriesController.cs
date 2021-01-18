@@ -29,16 +29,16 @@ namespace Supermarket.API.Controllers
             return categories;
         }
 
-        [HttpPost]
+        /* [HttpPost]
 
-       /* public async Task<IActionResult> PostAsync([FromBody] SaveCategoryResource resource)
+   public async Task<IActionResult> PostAsync([FromBody] SaveCategoryResource resource)
 
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState.GetErrorMessages());
+      {
+          if (!ModelState.IsValid)
+              return BadRequest(ModelState.GetErrorMessages());
 
-            var category = _mapper.Map<SaveCategoryResource, Category>(resource);
+          var category = _mapper.Map<SaveCategoryResource, Category>(resource);
 
-        }*/
+      }*/
     }
 }
