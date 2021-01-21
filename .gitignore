@@ -1,9 +1,17 @@
 
+obj/Supermarket.API.csproj.nuget.dgspec.json
+obj/Supermarket.API.csproj.nuget.g.props
+obj/project.assets.json
+obj/project.nuget.cache
+
+obj
+
+Migrations/
 
 .vs/
 
 bin/
 
-obj/
+
 
 .vscode

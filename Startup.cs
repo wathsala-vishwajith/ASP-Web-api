@@ -41,8 +41,9 @@ namespace Supermarket.API
             });
 
             services.AddDbContext<AppDbContext>(options => {
-                options.UseInMemoryDatabase("supermarket-api-in-memory");
+                options.UseNpgsql(Configuration["ConnectionString:supermarketDB"]);
             });
+           
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ICategoryService, CategoryService>();
