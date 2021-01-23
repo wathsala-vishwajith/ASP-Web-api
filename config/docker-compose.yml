@@ -2,12 +2,12 @@ version: '3.8'
 
 services:
 
-  postgres:
-    container_name: 'postgres'
-    image: 'postgres'
+  postgres-12.1-alpine:
+    container_name: 'postgres-12.1-alpine'
+    image: 'postgres:12.1-alpine'
     environment:  
-      POSTGRES_PASSWORD:
+      POSTGRES_PASSWORD:<default password>
     ports:
       - "6000:5432"
     volumes:
-      - <local folder path>:/var/lib/postgresql/data
+      - <localfolderpath>/var/lib/postgresql/data
